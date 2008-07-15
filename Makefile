@@ -1,5 +1,4 @@
-TEXFILES = manual.tex 20080703_presentation.tex 20080522_presentation.tex 
-PDFFILES = manual.pdf 20080703_presentation.pdf 20080522_presentation.pdf 
+TEXFILES = report.tex 20080703_presentation.tex 20080522_presentation.tex 
 
 default: pdf
 
