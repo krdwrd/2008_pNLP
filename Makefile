@@ -12,5 +12,5 @@ rubber: $(TEXFILES)
 rubber-clean:
 	rubber --clean -d $(TEXFILES)
 
-clean:
-	rm -rf *.pdf *.log *.aux *.out
+clean: rubber-clean
+	rm -f *.log *.aux *.out
