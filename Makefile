@@ -1,9 +1,6 @@
 TEXFILES = report.tex 20080703_presentation.tex 20080522_presentation.tex 
 
-default: pdf
-
-pdf: report.tex
-	pdflatex report 
+default: rubber
 
 rubber: $(TEXFILES)
 	rubber -d $(TEXFILES)
